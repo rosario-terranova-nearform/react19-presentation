@@ -19,7 +19,6 @@ const Person = () => {
 const After = () => {
   return (
     <Suspense fallback={<div>Loading...</div>}>
-      {" "}
       {/* step 4: wrap the component with Suspense */}
       <Person /> {/* step 5: render the component */}
     </Suspense>
@@ -27,12 +26,3 @@ const After = () => {
 };
 
 export default After;
-
-/*
-
-use is a Multi-purpose hook to load resources asynchronously
-resolves promises and context
-no more useContext for reading context
-no more useEffect for data fetching
-
-*/
