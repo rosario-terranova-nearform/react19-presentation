@@ -1,9 +1,12 @@
 "use server";
 
+import { revalidatePath } from "next/cache";
+
 //The action attribute on <form> expects void-returning functions
 export async function addItem(formData: FormData) {
   const item = formData.get("item")?.toString() || "";
   await new Promise((resolve) => setTimeout(resolve, 1000));
+  // revalidatePath("/");
   console.log("Adding item:", item);
 }
 

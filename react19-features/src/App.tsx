@@ -4,6 +4,7 @@ import BeforeUseFetch from "./2_use/Before_Fetch";
 import AfterUseFetch from "./2_use/After_Fetch";
 import BeforeContext from "./2_use/Before_Context";
 import AfterContext from "./2_use/After_Context";
+import Transition from "./3._transition/Transition";
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
       {/* <AfterUseFetch /> */}
       {/* <BeforeContext /> */}
       {/* <AfterContext /> */}
+      <h3>Transition</h3>
+      <Transition />
     </div>
   );
 }
