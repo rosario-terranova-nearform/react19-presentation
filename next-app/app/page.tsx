@@ -2,6 +2,8 @@ import ClientComponent from "@/features/ClientComponent";
 import ServerComponent from "@/features/ServerComponent";
 import ServerAction from "@/features/ServerAction";
 import ServerActionFormStatus from "@/features/ServerActionFormStatus";
+import ServerActionState from "@/features/ServerActionState";
+import ServerActionOptimistic from "@/features/ServerActionOptimistic";
 
 export default function Home() {
   return (
@@ -10,7 +12,9 @@ export default function Home() {
       {/* <ServerComponent /> */}
       {/* <ClientComponent /> */}
       {/* <ServerAction /> */}
-      <ServerActionFormStatus />
+      {/* <ServerActionFormStatus /> */}
+      {/* <ServerActionState /> */}
+      <ServerActionOptimistic />
     </div>
   );
 }

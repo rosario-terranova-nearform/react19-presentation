@@ -16,7 +16,7 @@ const SubmitButton = () => {
 const ServerActionFormStatus = () => {
   return (
     <div>
-      <h2>Server Actions Demo</h2>
+      <h2>useFormStatus Demo</h2>
 
       <form action={addItem}>
         <div>
